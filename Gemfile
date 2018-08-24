@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails'       
-gem 'puma'        
-gem 'sass-rails'  
-gem 'uglifier'    
+gem 'rails'
+gem 'puma'
+gem 'sass-rails'
+gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'turbolinks'  
-gem 'jbuilder'    
+gem 'turbolinks'
+gem 'jbuilder'
+gem 'redis-rails'
+gem 'slim-rails'
 
 group :development, :test do
   gem 'sqlite3'
@@ -15,18 +17,18 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'           
-  gem 'listen'                
-  gem 'spring'                
-  gem 'spring-watcher-listen' 
+  gem 'web-console'
+  gem 'listen'
+  gem 'spring'
+  gem 'spring-watcher-listen'
 end
 
 group :test do
-  gem 'rails-controller-testing' 
-  gem 'minitest'                 
-  gem 'minitest-reporters'       
-  gem 'guard'                    
-  gem 'guard-minitest'           
+  gem 'rails-controller-testing'
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 group :production do
